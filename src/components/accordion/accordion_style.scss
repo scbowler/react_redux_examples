@@ -1,0 +1,32 @@
+.accordion {
+    .accordion-item-container {
+        cursor: pointer;
+        font-size: 1.8em;
+
+        .item-title {
+            background-color: grey;
+            padding: 15px 8px;
+        }
+
+        &:nth-child(even) .item-title {
+            background-color: lightgrey;
+        }
+
+        &:nth-child(even) .item-content.open {
+            border-color: lightgrey;
+        }
+
+        .item-content {
+            max-height: 0;
+            overflow: hidden;
+            transition-duration: 250ms;
+
+            &.open {
+                max-height: 100px;
+                padding: 15px 8px;
+                border: 2px solid grey;
+                border-top: none;
+            }
+        }
+    }
+}

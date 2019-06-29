@@ -1,7 +1,7 @@
 {
-  "name": "react_starter",
+  "name": "react_redux_examples",
   "version": "1.1.0",
-  "description": "Starting setup for react redux project",
+  "description": "Examples of React components utilizing Redux state",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
@@ -12,7 +12,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/Learning-Fuze/react_redux_examples.git"
   },
   "dependencies": {
     "react": "^16.5.2",
